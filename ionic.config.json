@@ -1,0 +1,7 @@
+{
+  "name": "EnlighteningTimer",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,18 @@
+<ion-header class="fade">
+  <ion-toolbar>
+    <ion-title>
+      Enlightening Timer
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="content">
+  <ion-item class="fade">
+    <ion-label>Zeit in Minuten</ion-label>
+    <ion-input type="number" [(ngModel)]="minutes"></ion-input>
+  </ion-item>
+  <ion-button (click)="start()" expand="full" fill="outline" color="light" class="fade">Start</ion-button>
+  <p id="in">{{minutes}}</p>
+</div>
+</ion-content>

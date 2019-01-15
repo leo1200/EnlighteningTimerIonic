@@ -1,0 +1,28 @@
+.content{
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	animation: Gradient 10s ease infinite;
+	display: flex;
+  	flex-flow: column;
+  	height: 100%;
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+p{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 4em;
+	color: white;
+	opacity: 0.5;
+}
+
+}
